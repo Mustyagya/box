@@ -147,11 +147,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="blu_boxer.cpp" />
     <ClCompile Include="BOX.cpp" />
     <ClCompile Include="parameter.cpp" />
+    <ClCompile Include="red_boxer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="blu_boxer.h" />
     <ClInclude Include="parameter.h" />
+    <ClInclude Include="red_boxer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

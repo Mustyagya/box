@@ -5,13 +5,10 @@ class parameter
 {
 	public:
 		parameter() {}
-		parameter(int damage,);
+		void Attack()const;
 		~parameter();
 		
-		int damage;
 		
-		void set_damage(int damage);
-		int get_damage;
 protected:
 	int n_damage;
 };
